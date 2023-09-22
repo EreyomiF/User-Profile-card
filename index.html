@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> <!-- Include a custom font (Roboto) from Google Fonts -->
+    <title>User Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Roboto', sans-serif; /* Apply the custom font */
+        }
+
+        .card {
+            width: 18rem;
+            text-align: center; /* Center the text in the card */
+        }
+
+        .card-img-top {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card-title  {
+            font-weight: 700; /* Apply a bold font weight to the title */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3><strong>User Profile Card</strong></h3>
+        <img src="./WhatsApp Image 2023-09-15 at 11.59.28 AM.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Ereyomi Funmilola</h5>
+            <p class="card-text">Intern</p>
+            <p class="card-text">Web Developer</p>
+            <p class="card-text">Graduate</p>
+            <div class="d-flex flex-column align-items-center mt-2 mb-2">
+                <!-- Center the social media icons -->
+                <div class="d-flex align-items-center mt-2">
+                    <img src="./images/discord.svg" style="margin-right: 5px;">
+                    <img src="./images/linkedin.svg" style="margin-right: 5px;">
+                    <img src="./images/facebook.svg" style="margin-right: 5px;">
+                    <img src="./images/github.svg" style="margin-right: 5px;">
+                    <img src="./images/instagram.svg" style="margin-right: 5px;">
+                </div>
+            </div>
+            <a href="#" class="btn btn-dark w-100">Contact</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
